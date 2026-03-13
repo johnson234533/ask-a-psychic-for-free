@@ -1,0 +1,68 @@
+/* ============================================================
+   Design Tokens — Ask a Psychic for Free
+   ============================================================ */
+
+:root {
+  /* ---- Colors ---- */
+  --color-navy-primary:   #0B0F1F;
+  --color-navy-secondary: #111827;
+  --color-navy-card:      rgba(17, 24, 39, 0.72);
+
+  --color-ivory:          #F3F0E7;
+  --color-gray-blue:      #A9B3C2;
+  --color-gold:           #D6B15C;
+  --color-gold-light:     #E8C87A;
+  --color-gold-dark:      #C9A34D;
+
+  --color-white-5:        rgba(255, 255, 255, 0.05);
+  --color-white-8:        rgba(255, 255, 255, 0.08);
+  --color-white-10:       rgba(255, 255, 255, 0.10);
+
+  /* ---- Typography ---- */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+
+  --fw-light:    300;
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-semibold: 600;
+  --fw-bold:     700;
+
+  /* ---- Spacing (4px base) ---- */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* ---- Border Radius ---- */
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   18px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  /* ---- Transitions ---- */
+  --transition-fast:   150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow:   500ms ease;
+
+  /* ---- Shadows ---- */
+  --shadow-glow-gold:  0 0 30px rgba(214, 177, 92, 0.35);
+  --shadow-glow-sm:    0 0 20px rgba(214, 177, 92, 0.2);
+  --shadow-glow-lg:    0 0 40px rgba(214, 177, 92, 0.4);
+  --shadow-card:       0 20px 40px rgba(0, 0, 0, 0.3);
+
+  /* ---- Z-index ---- */
+  --z-starfield: 1;
+  --z-content:   3;
+  --z-nav:       50;
+  --z-noise:     1000;
+}
